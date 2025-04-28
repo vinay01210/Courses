@@ -3,7 +3,7 @@ import Filter from './Components/Filter';
 import Navbar from './Components/Navbar';
 import Cards from './Components/Cards';
 import Spinner from './Components/Spinner';
-import { filterData, apiUrl } from '../../data';
+import { filterData, apiUrl } from '../../data.js';
 import { useEffect, useState } from 'react';
 
 function App() {
