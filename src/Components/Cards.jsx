@@ -10,6 +10,7 @@ const Cards = (props) => {
   function getCourseData() {
     if (category == "All") {
       let allCourse = [];
+      // ek single array me convert kiya gya hai!!
       Object.values(coursess).forEach((array) => {
         array.forEach((coursData) => {
           allCourse.push(coursData);

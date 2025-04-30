@@ -10,7 +10,7 @@ const Card = (props) => {
   function clickHandlier() {
     if (likedcourses.includes(courses.id)) {
       //pahle se liked se pda hua ta!!
-      setlikedcourses((previos) => previos.filter((cid) => (cid !== courses.id)));
+      setlikedcourses((prev) => prev.filter((cid) => (cid !== courses.id)));
       toast.warning("removed liked");
     }
     else {
